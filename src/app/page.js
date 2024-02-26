@@ -6,11 +6,11 @@ const poppins = Poppins({ weight: "500", subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main className="min-h-screen p-8 lg:px-48 lg:py-0 bg-slate-900 lg:grid lg:grid-cols-2 gap-4">
-      <div className=" flex flex-col justify-between lg:sticky lg:top-0 max-h-screen py-24">
+    <main className="min-h-screen px-10 py-20 lg:px-48 lg:py-0 bg-slate-900 lg:grid lg:grid-cols-2 gap-4">
+      <div className=" flex flex-col justify-between lg:sticky lg:top-0 max-h-screen lg:py-24">
         <div className="container">
-          <div className={montserrat.className + " text-4xl font-extrabold"}>
-            GAURAV GAVALI
+          <div className={montserrat.className + " text-5xl font-extrabold"}>
+            Gaurav Gavali
           </div>
           <div className={poppins.className + " text-xl mt-3 font-medium"}>
             Web Developer
@@ -91,8 +91,9 @@ export default function Home() {
           </svg>
         </aside>
       </div>
-      <div className=" mt-20 lg:mt-0  py-24">
-        <div className=" container">
+      <div className=" lg:mt-0 lg:py-24 pt-16">
+        <div className=" container ">
+          <div id="about" className="lg:hidden py-6 text-sm font-bold sticky top-0 bg-slate-900 bg-opacity-80 backdrop-blur-sm">ABOUT</div>
           <p className=" text-gray-400">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
             vero iste nemo quaerat veniam dolores, sunt vel possimus pariatur,
@@ -117,6 +118,56 @@ export default function Home() {
             reprehenderit ut quae ducimus aut sint beatae, odit dolores cum nemo
             sunt dolore.
           </p>
+
+          <p className=" text-gray-400">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+            vero iste nemo quaerat veniam dolores, sunt vel possimus pariatur,
+            rerum architecto facere nam beatae aspernatur, exercitationem illum!
+            Voluptatibus, ipsa maxime?
+          </p>
+          <br />
+          <p className=" text-gray-400">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id voluptas
+            adipisci cumque cupiditate magni molestiae, pariatur, minus,
+            reprehenderit voluptatibus at quis repellat rerum maxime. Similique
+            dolorum quis perspiciatis illo blanditiis. Voluptates dolor,
+            quibusdam non vitae aliquid harum sunt, necessitatibus eos, ut
+            doloribus dolores rerum accusantium? Ex aspernatur, maxime repellat
+            necessitatibus labore tenetur nesciunt similique eligendi provident
+            eum repellendus hic voluptatum.
+          </p>
+          <br />
+          <p className=" text-gray-400">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero facere
+            sit voluptatum labore, nesciunt aspernatur corporis veritatis
+            reprehenderit ut quae ducimus aut sint beatae, odit dolores cum nemo
+            sunt dolore.
+          </p>
+
+          <p className=" text-gray-400">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+            vero iste nemo quaerat veniam dolores, sunt vel possimus pariatur,
+            rerum architecto facere nam beatae aspernatur, exercitationem illum!
+            Voluptatibus, ipsa maxime?
+          </p>
+          <br />
+          <p className=" text-gray-400">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id voluptas
+            adipisci cumque cupiditate magni molestiae, pariatur, minus,
+            reprehenderit voluptatibus at quis repellat rerum maxime. Similique
+            dolorum quis perspiciatis illo blanditiis. Voluptates dolor,
+            quibusdam non vitae aliquid harum sunt, necessitatibus eos, ut
+            doloribus dolores rerum accusantium? Ex aspernatur, maxime repellat
+            necessitatibus labore tenetur nesciunt similique eligendi provident
+            eum repellendus hic voluptatum.
+          </p>
+          <br />
+          <p className=" text-gray-400">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero facere
+            sit voluptatum labore, nesciunt aspernatur corporis veritatis
+            reprehenderit ut quae ducimus aut sint beatae, odit dolores cum nemo
+            sunt dolore.
+          </p> 
         </div>
       </div>
     </main>
